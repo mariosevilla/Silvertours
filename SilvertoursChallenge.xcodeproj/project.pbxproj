@@ -13,7 +13,7 @@
 		6454A6E3241CF31F0007C965 /* SilvertoursChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6454A6E1241CF31F0007C965 /* SilvertoursChallenge.xcdatamodeld */; };
 		6454A6E5241CF3240007C965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6454A6E4241CF3240007C965 /* Assets.xcassets */; };
 		6454A6E8241CF3240007C965 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6454A6E6241CF3240007C965 /* LaunchScreen.storyboard */; };
-		6454A6F3241CF3240007C965 /* SilvertoursChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6454A6F2241CF3240007C965 /* SilvertoursChallengeTests.swift */; };
+		6454A6F3241CF3240007C965 /* TransactionsListModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6454A6F2241CF3240007C965 /* TransactionsListModuleTests.swift */; };
 		6454A716241CFAE60007C965 /* TransactionsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6454A715241CFAE60007C965 /* TransactionsListViewController.swift */; };
 		6454A719241CFB6B0007C965 /* TransactionsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6454A718241CFB6B0007C965 /* TransactionsListPresenter.swift */; };
 		6454A71E241D01CD0007C965 /* TransactionsListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6454A71D241D01CD0007C965 /* TransactionsListInteractor.swift */; };
@@ -60,7 +60,7 @@
 		6454A6E7241CF3240007C965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6454A6E9241CF3240007C965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6454A6EE241CF3240007C965 /* SilvertoursChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilvertoursChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6454A6F2241CF3240007C965 /* SilvertoursChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilvertoursChallengeTests.swift; sourceTree = "<group>"; };
+		6454A6F2241CF3240007C965 /* TransactionsListModuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsListModuleTests.swift; sourceTree = "<group>"; };
 		6454A6F4241CF3240007C965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6454A6F9241CF3240007C965 /* SilvertoursChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilvertoursChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6454A715241CFAE60007C965 /* TransactionsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsListViewController.swift; sourceTree = "<group>"; };
@@ -145,7 +145,7 @@
 		6454A6F1241CF3240007C965 /* SilvertoursChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				6454A6F2241CF3240007C965 /* SilvertoursChallengeTests.swift */,
+				6454A6F2241CF3240007C965 /* TransactionsListModuleTests.swift */,
 				6454A6F4241CF3240007C965 /* Info.plist */,
 			);
 			path = SilvertoursChallengeTests;
@@ -444,7 +444,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6454A6F3241CF3240007C965 /* SilvertoursChallengeTests.swift in Sources */,
+				6454A6F3241CF3240007C965 /* TransactionsListModuleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
