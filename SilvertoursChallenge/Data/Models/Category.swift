@@ -23,13 +23,13 @@ enum TransactionType: CaseIterable {
 }
 
 enum Category: String, CustomStringConvertible {
-    case tax
-    case grocery
-    case entertaiment
-    case gym
-    case health
-    case salary
-    case dividends
+    case tax = "Tax"
+    case grocery = "Grocery"
+    case entertaiment = "Entertaiment"
+    case gym = "Gym"
+    case health = "Health"
+    case salary = "Salary"
+    case dividends = "Dividends"
     
     public var description: String {
         switch self {
