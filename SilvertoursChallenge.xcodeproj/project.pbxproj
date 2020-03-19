@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		643F403524220BCB0009B4FB /* AddTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643F403424220BCB0009B4FB /* AddTransactionViewController.swift */; };
+		643F403724220C190009B4FB /* AddTransactionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643F403624220C190009B4FB /* AddTransactionRouter.swift */; };
 		6454A6D9241CF31F0007C965 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6454A6D8241CF31F0007C965 /* AppDelegate.swift */; };
-		6454A6DB241CF31F0007C965 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6454A6DA241CF31F0007C965 /* SceneDelegate.swift */; };
-		6454A6DD241CF31F0007C965 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6454A6DC241CF31F0007C965 /* ViewController.swift */; };
-		6454A6E0241CF31F0007C965 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6454A6DE241CF31F0007C965 /* Main.storyboard */; };
 		6454A6E3241CF31F0007C965 /* SilvertoursChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6454A6E1241CF31F0007C965 /* SilvertoursChallenge.xcdatamodeld */; };
 		6454A6E5241CF3240007C965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6454A6E4241CF3240007C965 /* Assets.xcassets */; };
 		6454A6E8241CF3240007C965 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6454A6E6241CF3240007C965 /* LaunchScreen.storyboard */; };
 		6454A6F3241CF3240007C965 /* SilvertoursChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6454A6F2241CF3240007C965 /* SilvertoursChallengeTests.swift */; };
-		6454A6FE241CF3240007C965 /* SilvertoursChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6454A6FD241CF3240007C965 /* SilvertoursChallengeUITests.swift */; };
+		6454A716241CFAE60007C965 /* TransactionsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6454A715241CFAE60007C965 /* TransactionsListViewController.swift */; };
+		6454A719241CFB6B0007C965 /* TransactionsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6454A718241CFB6B0007C965 /* TransactionsListPresenter.swift */; };
+		6454A71E241D01CD0007C965 /* TransactionsListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6454A71D241D01CD0007C965 /* TransactionsListInteractor.swift */; };
+		6454A722241D035E0007C965 /* TransactionsListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6454A721241D035E0007C965 /* TransactionsListRouter.swift */; };
+		6454A729241D4A6A0007C965 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6454A728241D4A6A0007C965 /* TransactionTableViewCell.swift */; };
+		6454A72B241D5B120007C965 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6454A72A241D5B120007C965 /* SceneDelegate.swift */; };
+		64A07E1424228D98004EEE05 /* AddTransactionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A07E1324228D98004EEE05 /* AddTransactionPresenter.swift */; };
+		64A07E1624228DB8004EEE05 /* AddTransactionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A07E1524228DB8004EEE05 /* AddTransactionInteractor.swift */; };
+		64A07E192422A4D8004EEE05 /* TransactionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A07E182422A4D8004EEE05 /* TransactionHeaderView.swift */; };
+		64A07E1B2422DD30004EEE05 /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A07E1A2422DD30004EEE05 /* AddTransactionView.swift */; };
+		64A07E1D2422E191004EEE05 /* TransactionsListTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A07E1C2422E191004EEE05 /* TransactionsListTableView.swift */; };
+		64A07E1F2423784F004EEE05 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A07E1E2423784F004EEE05 /* Repository.swift */; };
+		64A07E2124237875004EEE05 /* AccountDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A07E2024237875004EEE05 /* AccountDataRepository.swift */; };
+		64A07E23242385D9004EEE05 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A07E22242385D9004EEE05 /* Account.swift */; };
+		64A07E252423861C004EEE05 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A07E242423861C004EEE05 /* Transaction.swift */; };
+		64A07E2724238B70004EEE05 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A07E2624238B70004EEE05 /* Category.swift */; };
+		64A07E2A2423D84E004EEE05 /* TransactionsPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A07E292423D84E004EEE05 /* TransactionsPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		643F403424220BCB0009B4FB /* AddTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionViewController.swift; sourceTree = "<group>"; };
+		643F403624220C190009B4FB /* AddTransactionRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionRouter.swift; sourceTree = "<group>"; };
 		6454A6D5241CF31F0007C965 /* SilvertoursChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilvertoursChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6454A6D8241CF31F0007C965 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6454A6DA241CF31F0007C965 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6454A6DC241CF31F0007C965 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6454A6DF241CF31F0007C965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6454A6E2241CF31F0007C965 /* SilvertoursChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SilvertoursChallenge.xcdatamodel; sourceTree = "<group>"; };
 		6454A6E4241CF3240007C965 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6454A6E7241CF3240007C965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,8 +63,23 @@
 		6454A6F2241CF3240007C965 /* SilvertoursChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilvertoursChallengeTests.swift; sourceTree = "<group>"; };
 		6454A6F4241CF3240007C965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6454A6F9241CF3240007C965 /* SilvertoursChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilvertoursChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6454A6FD241CF3240007C965 /* SilvertoursChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilvertoursChallengeUITests.swift; sourceTree = "<group>"; };
-		6454A6FF241CF3240007C965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6454A715241CFAE60007C965 /* TransactionsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsListViewController.swift; sourceTree = "<group>"; };
+		6454A718241CFB6B0007C965 /* TransactionsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsListPresenter.swift; sourceTree = "<group>"; };
+		6454A71D241D01CD0007C965 /* TransactionsListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsListInteractor.swift; sourceTree = "<group>"; };
+		6454A721241D035E0007C965 /* TransactionsListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsListRouter.swift; sourceTree = "<group>"; };
+		6454A728241D4A6A0007C965 /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		6454A72A241D5B120007C965 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		64A07E1324228D98004EEE05 /* AddTransactionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionPresenter.swift; sourceTree = "<group>"; };
+		64A07E1524228DB8004EEE05 /* AddTransactionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionInteractor.swift; sourceTree = "<group>"; };
+		64A07E182422A4D8004EEE05 /* TransactionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHeaderView.swift; sourceTree = "<group>"; };
+		64A07E1A2422DD30004EEE05 /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
+		64A07E1C2422E191004EEE05 /* TransactionsListTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsListTableView.swift; sourceTree = "<group>"; };
+		64A07E1E2423784F004EEE05 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		64A07E2024237875004EEE05 /* AccountDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDataRepository.swift; sourceTree = "<group>"; };
+		64A07E22242385D9004EEE05 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		64A07E242423861C004EEE05 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		64A07E2624238B70004EEE05 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		64A07E292423D84E004EEE05 /* TransactionsPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +112,6 @@
 			children = (
 				6454A6D7241CF31F0007C965 /* SilvertoursChallenge */,
 				6454A6F1241CF3240007C965 /* SilvertoursChallengeTests */,
-				6454A6FC241CF3240007C965 /* SilvertoursChallengeUITests */,
 				6454A6D6241CF31F0007C965 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,13 +130,14 @@
 			isa = PBXGroup;
 			children = (
 				6454A6D8241CF31F0007C965 /* AppDelegate.swift */,
-				6454A6DA241CF31F0007C965 /* SceneDelegate.swift */,
-				6454A6DC241CF31F0007C965 /* ViewController.swift */,
-				6454A6DE241CF31F0007C965 /* Main.storyboard */,
-				6454A6E4241CF3240007C965 /* Assets.xcassets */,
-				6454A6E6241CF3240007C965 /* LaunchScreen.storyboard */,
-				6454A6E9241CF3240007C965 /* Info.plist */,
-				6454A6E1241CF31F0007C965 /* SilvertoursChallenge.xcdatamodeld */,
+				6454A72A241D5B120007C965 /* SceneDelegate.swift */,
+				6454A711241CF7510007C965 /* Repositories */,
+				6454A712241CF7700007C965 /* Routers */,
+				6454A71A241D01780007C965 /* Interactors */,
+				6454A717241CFB480007C965 /* Presenters */,
+				6454A70B241CF4BA0007C965 /* UI */,
+				6454A713241CF7E90007C965 /* Resources */,
+				6454A724241D08A50007C965 /* Data */,
 			);
 			path = SilvertoursChallenge;
 			sourceTree = "<group>";
@@ -122,13 +151,139 @@
 			path = SilvertoursChallengeTests;
 			sourceTree = "<group>";
 		};
-		6454A6FC241CF3240007C965 /* SilvertoursChallengeUITests */ = {
+		6454A70B241CF4BA0007C965 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				6454A6FD241CF3240007C965 /* SilvertoursChallengeUITests.swift */,
-				6454A6FF241CF3240007C965 /* Info.plist */,
+				6454A70E241CF6560007C965 /* Screens */,
+				6454A70F241CF6720007C965 /* Components */,
 			);
-			path = SilvertoursChallengeUITests;
+			path = UI;
+			sourceTree = "<group>";
+		};
+		6454A70C241CF5340007C965 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64A07E1C2422E191004EEE05 /* TransactionsListTableView.swift */,
+				64A07E1A2422DD30004EEE05 /* AddTransactionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6454A70D241CF5450007C965 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6454A728241D4A6A0007C965 /* TransactionTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6454A70E241CF6560007C965 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				6454A715241CFAE60007C965 /* TransactionsListViewController.swift */,
+				643F403424220BCB0009B4FB /* AddTransactionViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		6454A70F241CF6720007C965 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				64A07E282423D81F004EEE05 /* PickerViews */,
+				64A07E172422A46D004EEE05 /* Headers */,
+				6454A70D241CF5450007C965 /* Cells */,
+				6454A70C241CF5340007C965 /* Views */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6454A711241CF7510007C965 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				64A07E1E2423784F004EEE05 /* Repository.swift */,
+				64A07E2024237875004EEE05 /* AccountDataRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		6454A712241CF7700007C965 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				6454A721241D035E0007C965 /* TransactionsListRouter.swift */,
+				643F403624220C190009B4FB /* AddTransactionRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		6454A713241CF7E90007C965 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6454A6E4241CF3240007C965 /* Assets.xcassets */,
+				6454A6E6241CF3240007C965 /* LaunchScreen.storyboard */,
+				6454A6E9241CF3240007C965 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6454A714241CF8560007C965 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				6454A6E1241CF31F0007C965 /* SilvertoursChallenge.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		6454A717241CFB480007C965 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				6454A718241CFB6B0007C965 /* TransactionsListPresenter.swift */,
+				64A07E1324228D98004EEE05 /* AddTransactionPresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		6454A71A241D01780007C965 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				6454A71D241D01CD0007C965 /* TransactionsListInteractor.swift */,
+				64A07E1524228DB8004EEE05 /* AddTransactionInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		6454A724241D08A50007C965 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6454A725241D08B70007C965 /* Models */,
+				6454A714241CF8560007C965 /* CoreData */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6454A725241D08B70007C965 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				64A07E22242385D9004EEE05 /* Account.swift */,
+				64A07E242423861C004EEE05 /* Transaction.swift */,
+				64A07E2624238B70004EEE05 /* Category.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		64A07E172422A46D004EEE05 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				64A07E182422A4D8004EEE05 /* TransactionHeaderView.swift */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		64A07E282423D81F004EEE05 /* PickerViews */ = {
+			isa = PBXGroup;
+			children = (
+				64A07E292423D84E004EEE05 /* TransactionsPickerView.swift */,
+			);
+			path = PickerViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +392,6 @@
 			files = (
 				6454A6E8241CF3240007C965 /* LaunchScreen.storyboard in Resources */,
 				6454A6E5241CF3240007C965 /* Assets.xcassets in Resources */,
-				6454A6E0241CF31F0007C965 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,10 +416,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6454A6DD241CF31F0007C965 /* ViewController.swift in Sources */,
+				64A07E1424228D98004EEE05 /* AddTransactionPresenter.swift in Sources */,
 				6454A6D9241CF31F0007C965 /* AppDelegate.swift in Sources */,
+				64A07E2124237875004EEE05 /* AccountDataRepository.swift in Sources */,
+				6454A719241CFB6B0007C965 /* TransactionsListPresenter.swift in Sources */,
+				6454A729241D4A6A0007C965 /* TransactionTableViewCell.swift in Sources */,
+				64A07E23242385D9004EEE05 /* Account.swift in Sources */,
 				6454A6E3241CF31F0007C965 /* SilvertoursChallenge.xcdatamodeld in Sources */,
-				6454A6DB241CF31F0007C965 /* SceneDelegate.swift in Sources */,
+				6454A722241D035E0007C965 /* TransactionsListRouter.swift in Sources */,
+				64A07E192422A4D8004EEE05 /* TransactionHeaderView.swift in Sources */,
+				64A07E1B2422DD30004EEE05 /* AddTransactionView.swift in Sources */,
+				643F403724220C190009B4FB /* AddTransactionRouter.swift in Sources */,
+				64A07E2724238B70004EEE05 /* Category.swift in Sources */,
+				64A07E252423861C004EEE05 /* Transaction.swift in Sources */,
+				6454A71E241D01CD0007C965 /* TransactionsListInteractor.swift in Sources */,
+				64A07E1D2422E191004EEE05 /* TransactionsListTableView.swift in Sources */,
+				64A07E1F2423784F004EEE05 /* Repository.swift in Sources */,
+				643F403524220BCB0009B4FB /* AddTransactionViewController.swift in Sources */,
+				64A07E2A2423D84E004EEE05 /* TransactionsPickerView.swift in Sources */,
+				6454A716241CFAE60007C965 /* TransactionsListViewController.swift in Sources */,
+				6454A72B241D5B120007C965 /* SceneDelegate.swift in Sources */,
+				64A07E1624228DB8004EEE05 /* AddTransactionInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +452,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6454A6FE241CF3240007C965 /* SilvertoursChallengeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +471,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6454A6DE241CF31F0007C965 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6454A6DF241CF31F0007C965 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6454A6E6241CF3240007C965 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -440,7 +602,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CN35U97J4A;
-				INFOPLIST_FILE = SilvertoursChallenge/Info.plist;
+				INFOPLIST_FILE = SilvertoursChallenge/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,7 +620,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CN35U97J4A;
-				INFOPLIST_FILE = SilvertoursChallenge/Info.plist;
+				INFOPLIST_FILE = SilvertoursChallenge/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
