@@ -22,7 +22,7 @@ class TransactionsListRouter: TransactionsListRouterProtocol {
         let transactionsListViewController = TransactionsListViewController()
 
         var presenter: TransactionsListPresenterProtocol & TransactionsListInteractorOutputProtocol = TransactionsListPresenter()
-        var interactor: TransactionsListInteractorInputProtocol = TransactionsListInteractor(accountDataRepository: AccountDataRepository())
+        var interactor: TransactionsListInteractorInputProtocol = TransactionsListInteractor(accountDataRepository: DataRepository())
         let router = TransactionsListRouter()
 
         transactionsListViewController.presenter = presenter

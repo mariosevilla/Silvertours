@@ -10,7 +10,7 @@ import UIKit
 
 class AddTransactionView: UIView {
     
-    let incomeCategorySegmentedControl = UISegmentedControl(items: ["Income", "Expence"])
+    let incomeCategorySegmentedControl = UISegmentedControl(items: ["Income", "Expense"])
     let accountTextField = UITextField()
     let categoryTextField = UITextField()
     let amountTextField = UITextField()

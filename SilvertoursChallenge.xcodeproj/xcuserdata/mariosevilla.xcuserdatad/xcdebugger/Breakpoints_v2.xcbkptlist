@@ -7,40 +7,8 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D7F5907E-FCAE-4D95-B4AE-D10AADCDC1ED"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SilvertoursChallenge/AppDelegate.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "application(_:configurationForConnecting:options:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "22D61757-B77F-42B9-965A-78B5653539AF"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SilvertoursChallenge/Interactors/TransactionsListInteractor.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "fetchTransactions()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "4E5E01E1-EA0E-4AEA-9127-77697344A826"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SilvertoursChallenge/Presenters/AddTransactionPresenter.swift"
@@ -66,6 +34,102 @@
             endingLineNumber = "48"
             landmarkName = "saveElement()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2B8113E3-EBB9-493B-831E-B7DCC6DC49BB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SilvertoursChallenge/UI/Components/Views/TransactionsListTableView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "addTransaction(transaction:inAccount:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2B8113E3-EBB9-493B-831E-B7DCC6DC49BB - ace356dad81be1fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SilvertoursChallenge.TransactionsListTableView.addTransaction(transaction: SilvertoursChallenge.Transaction, inAccount: Swift.String) -&gt; ()"
+                  moduleName = "SilvertoursChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariosevilla/Documents/Proyectos/SilvertoursChallenge/SilvertoursChallenge/UI/Components/Views/TransactionsListTableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "336">
+               </Location>
+               <Location
+                  uuid = "2B8113E3-EBB9-493B-831E-B7DCC6DC49BB - 3c9a66bd17564ca6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SilvertoursChallenge.Account) -&gt; Swift.Bool in SilvertoursChallenge.TransactionsListTableView.addTransaction(transaction: SilvertoursChallenge.Transaction, inAccount: Swift.String) -&gt; ()"
+                  moduleName = "SilvertoursChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariosevilla/Documents/Proyectos/SilvertoursChallenge/SilvertoursChallenge/UI/Components/Views/TransactionsListTableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "43">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6F0C45BC-E78B-4D00-BF9E-80732EF9C7CD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SilvertoursChallenge/UI/Components/Views/TransactionsListTableView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "addTransaction(transaction:inAccount:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6F0C45BC-E78B-4D00-BF9E-80732EF9C7CD - ace356dad81be1fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SilvertoursChallenge.TransactionsListTableView.addTransaction(transaction: SilvertoursChallenge.Transaction, inAccount: Swift.String) -&gt; ()"
+                  moduleName = "SilvertoursChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariosevilla/Documents/Proyectos/SilvertoursChallenge/SilvertoursChallenge/UI/Components/Views/TransactionsListTableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "813">
+               </Location>
+               <Location
+                  uuid = "6F0C45BC-E78B-4D00-BF9E-80732EF9C7CD - d57172ab734b3ae7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SilvertoursChallenge.Account) -&gt; Swift.Bool in SilvertoursChallenge.TransactionsListTableView.addTransaction(transaction: SilvertoursChallenge.Transaction, inAccount: Swift.String) -&gt; ()"
+                  moduleName = "SilvertoursChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariosevilla/Documents/Proyectos/SilvertoursChallenge/SilvertoursChallenge/UI/Components/Views/TransactionsListTableView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "43">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

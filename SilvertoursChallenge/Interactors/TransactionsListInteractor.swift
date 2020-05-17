@@ -19,9 +19,9 @@ protocol TransactionsListInteractorInputProtocol {
 class TransactionsListInteractor: TransactionsListInteractorInputProtocol {
     var presenter: TransactionsListInteractorOutputProtocol?
     
-    var accountDataRepository: AccountDataRepository?
+    var accountDataRepository: DataRepository?
     
-    init(accountDataRepository: AccountDataRepository) {
+    init(accountDataRepository: DataRepository) {
         self.accountDataRepository = accountDataRepository
     }
     

@@ -24,7 +24,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let emptyViewController = UIViewController()
         emptyViewController.title = "Charts"
         mainTabBarController.setViewControllers([mainNavigationController, emptyViewController], animated: false)
-
+        
+        mainTabBarController.tabBar.items?[0].image = UIImage(systemName: "text.justify")
+        mainTabBarController.tabBar.items?[1].image = UIImage(systemName: "chart.bar.fill")
+        
         window.rootViewController = mainTabBarController
         self.window = window
         window.makeKeyAndVisible()
